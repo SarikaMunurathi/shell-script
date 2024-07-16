@@ -10,3 +10,4 @@ echo "To get HostName: $HOSTNAME"
 sleep 60 &  # & denotes to run the in background
 echo "To get the process ID of current schell-script: $$"
 echo "To get the Process ID of last background command: $!"
+echo "To check the exit status of prvious command: $?"
