@@ -1,6 +1,6 @@
 #!bin/bash
 
-PLACES=("Hyderabad,Chennai,Banglore")
+PLACES=("Hyderabad","Chennai","Banglore")
 
 echo "First Place is : ${PLACES[0]}"
 echo "Second Place is : ${PLACES[1]}"
