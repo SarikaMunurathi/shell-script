@@ -1,6 +1,6 @@
 #!bin/bash
 
-NUMBER=$NO
+NUMBER=$1
 
 if[ $NUMBER -gt 10 ]
 then 
@@ -8,3 +8,5 @@ then
 else 
    echo "Given Number $NUMBER is Less than 10"
 fi
+
+#-gt, -lt, -eq, -ge, -le
