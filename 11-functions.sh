@@ -4,7 +4,7 @@
 
 USERID=$(id -u)
 TIMESTAMP=$(date+%F-%H-%M-%S)
-SCRIPTNAME=$($0 | cut -d "." -F1)
+SCRIPTNAME=$(echo $0 | cut -d "." -F1)
 LOGFILE=/tmp/$TIMESTAMP/$SCRIPTNAME.log
 
 VALIDATE(){
