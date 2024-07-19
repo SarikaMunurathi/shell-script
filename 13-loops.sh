@@ -1,7 +1,8 @@
 #!bin/bash
-echo "Enter a Number: "
+echo "enter Number: "
 read i
-for $i in {1..5}
+
+for i in $@
 do 
   echo $i
 done
