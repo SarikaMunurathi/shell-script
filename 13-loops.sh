@@ -1,7 +1,7 @@
 #!bin/bash
 i=0
 echo "Enter a Number: "
-Read i
+read i
 for i in {1..$i}
 do 
   echo $i
