@@ -1,8 +1,8 @@
 #!bin/bash
-Number=0
+i=0
 echo "Enter a Number: "
-Read Number
-for i in {1.."$Number"}
+Read i
+for i in {1..$i}
 do 
   echo $i
 done
