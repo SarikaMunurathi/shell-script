@@ -2,7 +2,7 @@
 i=0
 echo "Enter a Number: "
 read i
-for i in {1..$i}
+for i in {$i}
 do 
   echo $i
 done
