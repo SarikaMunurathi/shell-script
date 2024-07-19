@@ -6,3 +6,7 @@ for i in {1.."$Number"}
 do 
   echo $i
 done
+
+echo "Please enter a variable name"
+read VARNAME
+echo "Value of variable named $VARNAME : ${!VARNAME}"
